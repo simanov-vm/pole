@@ -1,0 +1,28 @@
+{
+  "background": {
+    "primary": {
+      "value": "#4747471f",
+      "type": "color",
+      "description": "Цвет фона в светлом сегментед контроле"
+    },
+    "invert": {
+      "value": "#4747471f",
+      "type": "color",
+      "description": "Цвет фона в тёмном сегментед контроле"
+    }
+  },
+  "button": {
+    "background": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Цвет выбранной кнопки в светлом сегментед контроле"
+      },
+      "invert": {
+        "value": "#474747",
+        "type": "color",
+        "description": "Цвет выбранной кнопки в тёмном сегментед контроле"
+      }
+    }
+  }
+}

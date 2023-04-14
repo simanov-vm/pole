@@ -1,0 +1,9 @@
+{
+  "background": {
+    "default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Основной цвет фона нижнего навигационного бара"
+    }
+  }
+}

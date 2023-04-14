@@ -1,0 +1,12 @@
+{
+  "primary": {
+    "value": "#000089",
+    "type": "color",
+    "description": "Используется для маркировки библиотеки Base\n"
+  },
+  "secondary": {
+    "value": "#f8cffd",
+    "type": "color",
+    "description": "Используется для маркировки библиотеки Base"
+  }
+}

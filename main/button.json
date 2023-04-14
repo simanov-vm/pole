@@ -1,0 +1,219 @@
+{
+  "background": {
+    "primary": {
+      "default": {
+        "value": "#141414",
+        "type": "color",
+        "description": "Основной цвет для всех кнопок. Используется по умолчанию для всех главных кнопок в макете."
+      },
+      "hover": {
+        "value": "#414141",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#b8b8b8",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "#f3f3f3",
+        "type": "color",
+        "description": "Второстепенный цвет для кнопок, на которые можно нажать\n\nНе использовать на цветных поверхностях, если нужен второстепенный цвет на яркой поверхности — попробуй invert или ghost"
+      },
+      "hover": {
+        "value": "#edecec",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#f5f5f5",
+        "type": "color"
+      }
+    },
+    "ghost": {
+      "default": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "Прозрачный цвет для кнопок. Это кнопки, в которых нет фона. \n"
+      },
+      "hover": {
+        "value": "#b3b3b31a",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#b6b6b633",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff00",
+        "type": "color"
+      }
+    },
+    "invert": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Цвет для белых кнопок, расположенных на цветных, темных поверхностях."
+      },
+      "hover": {
+        "value": "#ffffffcc",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#ffffffbf",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "ghost-invert": {
+      "default": {
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "Прозрачный цвет для кнопок на тёмных поверхностях. Это кнопки, в которых нет фона. "
+      },
+      "hover": {
+        "value": "#ffffff1a",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#ffffff33",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff00",
+        "type": "color"
+      }
+    },
+    "payment-sber": {
+      "default": {
+        "value": "#21a038",
+        "type": "color",
+        "description": "Основной цвет для кнопки Sber Pay"
+      },
+      "hover": {
+        "value": "#4db360",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#168c2c",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#58c56b",
+        "type": "color"
+      }
+    },
+    "payment-sbp": {
+      "default": {
+        "value": "#1d1346",
+        "type": "color",
+        "description": "Основной цвет для кнопки СБП"
+      },
+      "hover": {
+        "value": "#3f3662",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#1b1140",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#b4afc9",
+        "type": "color"
+      }
+    },
+    "wallet": {
+      "default": {
+        "value": "#141414",
+        "type": "color",
+        "description": "Основной цвет для кнопки Wallet"
+      },
+      "hover": {
+        "value": "#414141",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#b8b8b8",
+        "type": "color"
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "value": "#ededed",
+      "type": "color",
+      "description": "Обводка кнопки по умолчанию. \n"
+    },
+    "hover": {
+      "value": "#d6d6d6",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#b8b8b8",
+      "type": "color"
+    },
+    "focused": {
+      "value": "#a0a0a0",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#ededed",
+      "type": "color"
+    }
+  },
+  "text": {
+    "inline": {
+      "default": {
+        "value": "#242424",
+        "type": "color",
+        "description": "Основной цвет текста инлайн кнопок"
+      },
+      "hover": {
+        "value": "#525252",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#b8b8b8",
+        "type": "color"
+      }
+    },
+    "inline-invert": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Основной цвет текста инвертированных инлайн кнопок"
+      },
+      "hover": {
+        "value": "#ffffffcc",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#ffffff99",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff66",
+        "type": "color"
+      }
+    }
+  }
+}

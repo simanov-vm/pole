@@ -1,0 +1,14 @@
+{
+  "background": {
+    "global": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Основной цвет фона верхнего навигационного бара"
+    },
+    "icon": {
+      "value": "#ffffffb3",
+      "type": "color",
+      "description": "Цвет фона подложки под иконкой (для прозрачного состояния)"
+    }
+  }
+}

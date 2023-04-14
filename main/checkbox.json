@@ -1,0 +1,80 @@
+{
+  "border": {
+    "focused": {
+      "value": "#a0a0a0",
+      "type": "color"
+    },
+    "uncheсked": {
+      "default": {
+        "value": "#717171",
+        "type": "color",
+        "description": "Цвет обводки чекбокса в отключённом состоянии"
+      },
+      "hover": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#d0d0d0",
+        "type": "color"
+      }
+    }
+  },
+  "fill": {
+    "cheсked": {
+      "default": {
+        "value": "#404040",
+        "type": "color",
+        "description": "Цвет чекбокса в включённом состоянии"
+      },
+      "hover": {
+        "value": "#525252",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#404040",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#dadada",
+        "type": "color"
+      }
+    }
+  },
+  "check": {
+    "fill": {
+      "cheсked": {
+        "default": {
+          "value": "#b8b8b8",
+          "type": "color",
+          "description": "Цвет галочки в выбранном чекбоксе"
+        }
+      }
+    }
+  },
+  "background": {
+    "uncheсked": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Цвет фона чекбокса в отключённом состоянии"
+      },
+      "hover": {
+        "value": "#f1f1f1",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#dddddd",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  }
+}

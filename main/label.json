@@ -1,0 +1,14 @@
+{
+  "background": {
+    "discount": {
+      "value": "#ed0e00",
+      "type": "color",
+      "description": "Цвет для лейблов скидки"
+    },
+    "promotion": {
+      "value": "#fed731",
+      "type": "color",
+      "description": "Дополнительный цвет для лейблов промо"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "fill": {
+    "primary": {
+      "value": "#ed0e00",
+      "type": "color",
+      "description": "Основной цвет для лоадера"
+    },
+    "secondary": {
+      "value": "#ff8144",
+      "type": "color",
+      "description": "Второй цвет для лоадера при прокручивании"
+    },
+    "tertiary": {
+      "value": "#ffc247",
+      "type": "color",
+      "description": "Третий цвет для лоадера при прокручивании"
+    }
+  }
+}

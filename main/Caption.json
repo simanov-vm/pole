@@ -1,0 +1,86 @@
+{
+  "Large": {
+    "Accent": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 400}",
+        "fontSize": "{FontSize 200}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Accent-low": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 200}",
+        "fontSize": "{FontSize 200}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Regular": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 100}",
+        "lineHeight": "{LineHeight 400}",
+        "fontSize": "{FontSize 200}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Regular-low": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 100}",
+        "lineHeight": "{LineHeight 200}",
+        "fontSize": "{FontSize 200}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    }
+  },
+  "Small": {
+    "Accent": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 300}",
+        "fontSize": "{FontSize 100}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Accent-low": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 100}",
+        "fontSize": "{FontSize 100}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Regular": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 100}",
+        "lineHeight": "{LineHeight 300}",
+        "fontSize": "{FontSize 100}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Regular-low": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 100}",
+        "lineHeight": "{LineHeight 100}",
+        "fontSize": "{FontSize 100}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    }
+  }
+}

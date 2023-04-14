@@ -1,0 +1,14 @@
+{
+  "S": {
+    "value": "16",
+    "type": "borderRadius"
+  },
+  "M": {
+    "value": "20",
+    "type": "borderRadius"
+  },
+  "L": {
+    "value": "24",
+    "type": "borderRadius"
+  }
+}

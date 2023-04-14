@@ -1,0 +1,59 @@
+{
+  "fill": {
+    "uncheсked": {
+      "default": {
+        "value": "#e8e8e8",
+        "type": "color",
+        "description": "Цвет радиокнопки в отключённом состоянии"
+      },
+      "hover": {
+        "value": "#e3e3e3",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#e0e0e0",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#e8e8e8",
+        "type": "color"
+      }
+    },
+    "cheсked": {
+      "default": {
+        "value": "#404040",
+        "type": "color",
+        "description": "Цвет радиокнопки в включённом состоянии"
+      },
+      "hover": {
+        "value": "#525252",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#404040",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#b8b8b8",
+        "type": "color"
+      }
+    }
+  },
+  "border": {
+    "focused": {
+      "value": "#a0a0a0",
+      "type": "color"
+    }
+  },
+  "dot": {
+    "fill": {
+      "cheсked": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет точки выбранного радиобаттона"
+        }
+      }
+    }
+  }
+}

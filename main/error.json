@@ -1,0 +1,28 @@
+{
+  "background": {
+    "default": {
+      "value": "#fbf2f2",
+      "type": "color",
+      "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+    },
+    "hover": {
+      "value": "#f9eded",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#f8e8e8",
+      "type": "color"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "#e7b5b5",
+      "type": "color",
+      "description": "Обводка с ошибкой для выбранных, активированных полей ввода, селекторов, инпутов или уведомлений \n\nИспользуется, когда надо обвести какой-то элемент с состоянием грубой ошибки. Например, мы ввели неправильно код из СМС. При этом фокус из поля убран"
+    },
+    "pressed": {
+      "value": "#ad0000",
+      "type": "color"
+    }
+  }
+}

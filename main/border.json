@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "default": {
+      "value": "#717171",
+      "type": "color",
+      "description": "Насыщенная обводка"
+    },
+    "hover": {
+      "value": "#595959",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#595959",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#d0d0d0",
+      "type": "color"
+    }
+  },
+  "secondary": {
+    "default": {
+      "value": "#ededed",
+      "type": "color",
+      "description": "Второстепенный цвет обводки"
+    },
+    "hover": {
+      "value": "#d6d6d6",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#b8b8b8",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#ededed",
+      "type": "color"
+    }
+  },
+  "focused": {
+    "default": {
+      "value": "#181818",
+      "type": "color"
+    }
+  }
+}

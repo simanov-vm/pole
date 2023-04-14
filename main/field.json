@@ -1,0 +1,55 @@
+{
+  "background": {
+    "default": {
+      "value": "#fafafa",
+      "type": "color",
+      "description": "Цвет для Search, Input, Text Area, Select, Input code. Используется как основной цвет по дефолту."
+    },
+    "hover": {
+      "value": "#f7f7f7",
+      "type": "color"
+    },
+    "focused": {
+      "value": "#f5f5f5",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#f3f3f3",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#f5f5f5",
+      "type": "color"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "#ededed",
+      "type": "color",
+      "description": "Обводка для Search, Input, Text Area, Select, Input code по умолчанию."
+    },
+    "hover": {
+      "value": "#d6d6d6",
+      "type": "color"
+    },
+    "focused": {
+      "value": "#b8b8b8",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#ededed",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#b8b8b8",
+      "type": "color"
+    }
+  },
+  "fill": {
+    "dots": {
+      "value": "#c4c4c4",
+      "type": "color",
+      "description": "Цвет для точек в Input code."
+    }
+  }
+}

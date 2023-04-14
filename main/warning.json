@@ -1,0 +1,28 @@
+{
+  "background": {
+    "default": {
+      "value": "#fff5eb",
+      "type": "color",
+      "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+    },
+    "hover": {
+      "value": "#fff2e4",
+      "type": "color"
+    },
+    "pressed": {
+      "value": "#feefde",
+      "type": "color"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "#fcc693",
+      "type": "color",
+      "description": "Обводка предупреждения для карточек, алертов, нотификаций, полей ввода, селекторов, инпутов.\n\nИспользуется, когда надо обвести какой-то элемент с состоянием предупреждения или незначительной ошибки."
+    },
+    "pressed": {
+      "value": "#c14600",
+      "type": "color"
+    }
+  }
+}

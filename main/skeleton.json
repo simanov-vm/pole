@@ -1,0 +1,14 @@
+{
+  "background": {
+    "primary": {
+      "value": "#e8e8e8",
+      "type": "color",
+      "description": "Основной цвет фона скелетона при старте пульсации"
+    },
+    "seсondary": {
+      "value": "#d9d9d9",
+      "type": "color",
+      "description": "Вторичный цвет фона скелетона при финише пульсации"
+    }
+  }
+}

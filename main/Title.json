@@ -1,0 +1,32 @@
+{
+  "Large": {
+    "value": {
+      "fontFamily": "{Font Family}",
+      "fontWeight": "{FontWeight 200}",
+      "lineHeight": "{LineHeight 800}",
+      "fontSize": "{FontSize 600}",
+      "letterSpacing": "{LetterSpacing 0}"
+    },
+    "type": "typography"
+  },
+  "Medium": {
+    "value": {
+      "fontFamily": "{Font Family}",
+      "fontWeight": "{FontWeight 200}",
+      "lineHeight": "{LineHeight 700}",
+      "fontSize": "{FontSize 500}",
+      "letterSpacing": "{LetterSpacing 0}"
+    },
+    "type": "typography"
+  },
+  "Small": {
+    "value": {
+      "fontFamily": "{Font Family}",
+      "fontWeight": "{FontWeight 200}",
+      "lineHeight": "{LineHeight 600}",
+      "fontSize": "{FontSize 400}",
+      "letterSpacing": "{LetterSpacing 0}"
+    },
+    "type": "typography"
+  }
+}

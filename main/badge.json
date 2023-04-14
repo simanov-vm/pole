@@ -1,0 +1,26 @@
+{
+  "background": {
+    "discount": {
+      "value": "#ed0e00",
+      "type": "color",
+      "description": "Цвет для бейджей скидок"
+    },
+    "new": {
+      "value": "#409449",
+      "type": "color",
+      "description": "Цвет для бейджей новинок"
+    },
+    "neutral": {
+      "value": "#f3f3f3",
+      "type": "color",
+      "description": "Дополнительный цвет для бейджей"
+    }
+  },
+  "border": {
+    "primary": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Бордер цвет для бейджей"
+    }
+  }
+}
