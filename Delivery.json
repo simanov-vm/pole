@@ -1,0 +1,1667 @@
+{
+  "text": {
+    "primary": {
+      "value": "#242424",
+      "type": "color",
+      "description": "Основной текст, им набираем все, что выглядит как черный текст"
+    },
+    "secondary": {
+      "value": "#717171",
+      "type": "color",
+      "description": "Второстепенный текст, для подписей, объяснений второго уровня. \n\nИспользуется, если над ним уже есть основной текст, или текст не такой уж важный в данном варианте"
+    },
+    "tertiary": {
+      "value": "#b8b8b8",
+      "type": "color",
+      "description": "Для недоступного текста. В основном в кнопках, ссылках, других элементах, где текст зависит от состояния действия. Может использоваться как плейсхолдер"
+    },
+    "invert": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Инвертированный белый текст для цветных поверхностей — кнопок, уведомлений, карточек и так далее "
+      },
+      "secondary": {
+        "value": "#ffffff66",
+        "type": "color",
+        "description": "Недоступный для взаимодействия инвертированный белый текст. \n\nИспользуется, если на текст в данный момент нельзя нажать, но есть определенное действие."
+      }
+    },
+    "system": {
+      "success": {
+        "value": "#2c7e34",
+        "type": "color",
+        "description": "Системные цвета текста для успеха \n\nДля поддержки пользователя, что он молодец. И успешных сценариев. Например, если ввели все верно или получили бонусы в конце действия. "
+      },
+      "warning": {
+        "value": "#c14600",
+        "type": "color",
+        "description": "Системные цвета текста для предупреждения \n\nВ интерфейсах, где есть что-то поправимое и мы бы хотели лишь предупредить об ограничениях. \n\nВсе то, что носит временный характер "
+      },
+      "error": {
+        "value": "#ad0000",
+        "type": "color",
+        "description": "Системные цвета текста для ошибки \n\nНапример, если ввели неверно номер или произошло что-то непоправимое. Везде, где произошла грубая ошибка"
+      }
+    },
+    "link": {
+      "default": {
+        "value": "#0071c2",
+        "type": "color",
+        "description": "Ссылки по умолчанию"
+      },
+      "visited": {
+        "value": "#4691c7",
+        "type": "color",
+        "description": "Просмотренная ссылка.\nЕсли по этой ссылке уже нажимали и вернулись обратно"
+      }
+    }
+  },
+  "global": {
+    "background": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Основной белый цвет для бекграунда во всех макетах по-умолчанию.\n\nНе может накладываться на другие поверхности. \n\nИспользуется как самый нижний цвет для макетов. На него накладывается весь интерфейс. "
+      },
+      "secondary": {
+        "value": "#f3f3f3",
+        "type": "color",
+        "description": "Второстепенный серый цвет для бекграунда для некоторых макетов, где надо показать белые карточки или цветные элементы, но белый не подходит.\n\nНе может накладываться на другие поверхности. Работает как задний фон.\nИспользуется как самый нижний цвет для макетов. На него накладывается весь другой интерфейс. "
+      }
+    }
+  },
+  "icon": {
+    "fill": {
+      "secondary": {
+        "value": "#717171",
+        "type": "color",
+        "description": "Вторичный цвет для иконки, может использоваться как дефолтный цвет для некоторых сценариев или как состояние наведения или тапа."
+      },
+      "tertiary": {
+        "value": "#b8b8b8",
+        "type": "color",
+        "description": "Третичный цвет для иконки. используется в основном как недоступный цвет в стандартном сценарии. "
+      },
+      "muted": {
+        "value": "#d0d0d0",
+        "type": "color",
+        "description": "Приглушённый цвет иконки"
+      },
+      "project": {
+        "value": "#ed0e00",
+        "type": "color",
+        "description": "Цвет состояния для конкретного продукта."
+      },
+      "project-weak": {
+        "value": "#ffafaa",
+        "type": "color",
+        "description": "Цвет заливки для конкретного продукта. Используется в дуотон состояниях иконок."
+      },
+      "primary": {
+        "value": "#2a2a2a",
+        "type": "color",
+        "description": "Основной цвет для иконки, используется в системе как базовый цвет"
+      },
+      "invert": {
+        "primary": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет белой иконки для цветных и темных поверхностей "
+        },
+        "secondary": {
+          "value": "#ffffffbf",
+          "type": "color",
+          "description": "Вторичный цвет белой иконки для цветных и темных поверхностей"
+        },
+        "tertiary": {
+          "value": "#ffffff66",
+          "type": "color",
+          "description": "Третичный цвет белой иконки для цветных и темных поверхностей "
+        }
+      },
+      "system": {
+        "success": {
+          "value": "#2c7e34",
+          "type": "color",
+          "description": "Цвет состояния успеха для иконок"
+        },
+        "success-weak": {
+          "value": "#acdeb1",
+          "type": "color",
+          "description": "Цвет заливки состояния успеха для иконок"
+        },
+        "warning": {
+          "value": "#c14600",
+          "type": "color",
+          "description": "Цвет состояния предупреждения для иконок"
+        },
+        "warning-weak": {
+          "value": "#fcc693",
+          "type": "color",
+          "description": "Цвет заливки состояния предупреждения для иконок"
+        },
+        "error": {
+          "value": "#ad0000",
+          "type": "color",
+          "description": "Цвет состояния ошибки для иконок"
+        },
+        "error-weak": {
+          "value": "#e7b5b5",
+          "type": "color",
+          "description": "Цвет заливки состояния ошибки для иконок"
+        }
+      }
+    }
+  },
+  "surface": {
+    "background": {
+      "primary": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет по умолчанию для белой поверхности, котора содержит в себе сложный контент.\n\nМожет быть кликабельной или статичной.\n\nНапример, всплывающие уведомления с кнопкой или карточки блоков с разной информацией"
+        },
+        "hover": {
+          "value": "#fafafa",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "intense": {
+        "default": {
+          "value": "#474747",
+          "type": "color",
+          "description": "Темный цвет для поверхности по умолчанию"
+        },
+        "hover": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#404040",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      },
+      "muted": {
+        "default": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "description": "Второстепенный серый цвет для поверхности, котора содержит в себе сложный контент. \n"
+        },
+        "hover": {
+          "value": "#f0f0f0",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#ededed",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#f3f3f3",
+          "type": "color"
+        }
+      },
+      "subdued": {
+        "default": {
+          "value": "#e8e8e8",
+          "type": "color",
+          "description": "Насыщенный цвет для поверхности, которая содержит в себе контент."
+        },
+        "hover": {
+          "value": "#e3e3e3",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#e0e0e0",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#e8e8e8",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "border": {
+    "primary": {
+      "default": {
+        "value": "#717171",
+        "type": "color",
+        "description": "Насыщенная обводка"
+      },
+      "hover": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#d0d0d0",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "#ededed",
+        "type": "color",
+        "description": "Второстепенный цвет обводки"
+      },
+      "hover": {
+        "value": "#d6d6d6",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#b8b8b8",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ededed",
+        "type": "color"
+      }
+    },
+    "focused": {
+      "default": {
+        "value": "#181818",
+        "type": "color"
+      }
+    }
+  },
+  "success": {
+    "background": {
+      "default": {
+        "value": "#eaf7eb",
+        "type": "color",
+        "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+      },
+      "hover": {
+        "value": "#e4f3e5",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#dff0e0",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#acdeb1",
+        "type": "color",
+        "description": "Обводка по умолчанию для карточек, алертов, нотификаций, полей ввода, селекторов, инпутов с успехом.\n\nИспользуется, когда надо обвести какой-то элемент с состоянием успеха. Например, мы ввели правильно код из СМС. При этом фокус из поля убран. Или уведомление нотификации с состоянием успеха."
+      },
+      "pressed": {
+        "value": "#2c7e34",
+        "type": "color"
+      }
+    }
+  },
+  "warning": {
+    "background": {
+      "default": {
+        "value": "#fff5eb",
+        "type": "color",
+        "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+      },
+      "hover": {
+        "value": "#fff2e4",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#feefde",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#fcc693",
+        "type": "color",
+        "description": "Обводка предупреждения для карточек, алертов, нотификаций, полей ввода, селекторов, инпутов.\n\nИспользуется, когда надо обвести какой-то элемент с состоянием предупреждения или незначительной ошибки."
+      },
+      "pressed": {
+        "value": "#c14600",
+        "type": "color"
+      }
+    }
+  },
+  "error": {
+    "background": {
+      "default": {
+        "value": "#fbf2f2",
+        "type": "color",
+        "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+      },
+      "hover": {
+        "value": "#f9eded",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#f8e8e8",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#e7b5b5",
+        "type": "color",
+        "description": "Обводка с ошибкой для выбранных, активированных полей ввода, селекторов, инпутов или уведомлений \n\nИспользуется, когда надо обвести какой-то элемент с состоянием грубой ошибки. Например, мы ввели неправильно код из СМС. При этом фокус из поля убран"
+      },
+      "pressed": {
+        "value": "#ad0000",
+        "type": "color"
+      }
+    }
+  },
+  "divider": {
+    "primary": {
+      "value": "#e7e7e7",
+      "type": "color",
+      "description": "Основной цвет для линии разграничения. Применяется, когда надо отделить карточки, компоненты, текстовые блоки друг от друга "
+    },
+    "secondary": {
+      "value": "#c8c8c8",
+      "type": "color",
+      "description": "Вторичный, более контрастный цвет для линии разграничения. Применяется, когда надо отделить карточки, компоненты, текстовые блоки друг от друга "
+    }
+  },
+  "button": {
+    "background": {
+      "primary": {
+        "default": {
+          "value": "#141414",
+          "type": "color",
+          "description": "Основной цвет для всех кнопок. Используется по умолчанию для всех главных кнопок в макете."
+        },
+        "hover": {
+          "value": "#414141",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "#f3f3f3",
+          "type": "color",
+          "description": "Второстепенный цвет для кнопок, на которые можно нажать\n\nНе использовать на цветных поверхностях, если нужен второстепенный цвет на яркой поверхности — попробуй invert или ghost"
+        },
+        "hover": {
+          "value": "#edecec",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#e8e8e8",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#f5f5f5",
+          "type": "color"
+        }
+      },
+      "ghost": {
+        "default": {
+          "value": "#ffffff00",
+          "type": "color",
+          "description": "Прозрачный цвет для кнопок. Это кнопки, в которых нет фона. \n"
+        },
+        "hover": {
+          "value": "#b3b3b31a",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#b6b6b633",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff00",
+          "type": "color"
+        }
+      },
+      "invert": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет для белых кнопок, расположенных на цветных, темных поверхностях."
+        },
+        "hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#ffffffbf",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "ghost-invert": {
+        "default": {
+          "value": "#ffffff00",
+          "type": "color",
+          "description": "Прозрачный цвет для кнопок на тёмных поверхностях. Это кнопки, в которых нет фона. "
+        },
+        "hover": {
+          "value": "#ffffff1a",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#ffffff33",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff00",
+          "type": "color"
+        }
+      },
+      "payment-sber": {
+        "default": {
+          "value": "#21a038",
+          "type": "color",
+          "description": "Основной цвет для кнопки Sber Pay"
+        },
+        "hover": {
+          "value": "#4db360",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#168c2c",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#58c56b",
+          "type": "color"
+        }
+      },
+      "payment-sbp": {
+        "default": {
+          "value": "#1d1346",
+          "type": "color",
+          "description": "Основной цвет для кнопки СБП"
+        },
+        "hover": {
+          "value": "#3f3662",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#1b1140",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b4afc9",
+          "type": "color"
+        }
+      },
+      "wallet": {
+        "default": {
+          "value": "#141414",
+          "type": "color",
+          "description": "Основной цвет для кнопки Wallet"
+        },
+        "hover": {
+          "value": "#414141",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#ededed",
+        "type": "color",
+        "description": "Обводка кнопки по умолчанию. \n"
+      },
+      "hover": {
+        "value": "#d6d6d6",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#b8b8b8",
+        "type": "color"
+      },
+      "focused": {
+        "value": "#a0a0a0",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ededed",
+        "type": "color"
+      }
+    },
+    "text": {
+      "inline": {
+        "default": {
+          "value": "#242424",
+          "type": "color",
+          "description": "Основной цвет текста инлайн кнопок"
+        },
+        "hover": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      },
+      "inline-invert": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Основной цвет текста инвертированных инлайн кнопок"
+        },
+        "hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#ffffff99",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff66",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "field": {
+    "background": {
+      "default": {
+        "value": "#fafafa",
+        "type": "color",
+        "description": "Цвет для Search, Input, Text Area, Select, Input code. Используется как основной цвет по дефолту."
+      },
+      "hover": {
+        "value": "#f7f7f7",
+        "type": "color"
+      },
+      "focused": {
+        "value": "#f5f5f5",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#f3f3f3",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#f5f5f5",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#ededed",
+        "type": "color",
+        "description": "Обводка для Search, Input, Text Area, Select, Input code по умолчанию."
+      },
+      "hover": {
+        "value": "#d6d6d6",
+        "type": "color"
+      },
+      "focused": {
+        "value": "#b8b8b8",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ededed",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "#b8b8b8",
+        "type": "color"
+      }
+    },
+    "fill": {
+      "dots": {
+        "value": "#c4c4c4",
+        "type": "color",
+        "description": "Цвет для точек в Input code."
+      }
+    }
+  },
+  "chips": {
+    "background": {
+      "selected": {
+        "default": {
+          "value": "#474747",
+          "type": "color",
+          "description": "Цвет для выбранного чипса, таба, фильтра"
+        },
+        "hover": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#393939",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "default": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "description": "Основной цвет невыбранного для чипса, таба, фильтра по умолчанию"
+        },
+        "hover": {
+          "value": "#f0f0f0",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#ededed",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#f3f3f3",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Второстепенный цвет для невыбранного чипса, таба, фильтра по умолчанию"
+        },
+        "hover": {
+          "value": "#fafafa",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "focused": {
+        "value": "#a0a0a0",
+        "type": "color",
+        "description": "Цвет обводки элемента, когда человек переключается по кнопке Таблуляции / Tab\nПоявляется рамка вокруг интерактивного элемента."
+      },
+      "secondary": {
+        "default": {
+          "value": "#ededed",
+          "type": "color",
+          "description": "Обводка для чипса, таба, фильтра по умолчанию"
+        },
+        "hover": {
+          "value": "#d6d6d6",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#b8b8b8",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#f5f5f5",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "segmentedcontrol": {
+    "background": {
+      "primary": {
+        "value": "#4747471f",
+        "type": "color",
+        "description": "Цвет фона в светлом сегментед контроле"
+      },
+      "invert": {
+        "value": "#4747471f",
+        "type": "color",
+        "description": "Цвет фона в тёмном сегментед контроле"
+      }
+    },
+    "button": {
+      "background": {
+        "primary": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет выбранной кнопки в светлом сегментед контроле"
+        },
+        "invert": {
+          "value": "#474747",
+          "type": "color",
+          "description": "Цвет выбранной кнопки в тёмном сегментед контроле"
+        }
+      }
+    }
+  },
+  "radiobutton": {
+    "fill": {
+      "uncheсked": {
+        "default": {
+          "value": "#e8e8e8",
+          "type": "color",
+          "description": "Цвет радиокнопки в отключённом состоянии"
+        },
+        "hover": {
+          "value": "#e3e3e3",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#e0e0e0",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#e8e8e8",
+          "type": "color"
+        }
+      },
+      "cheсked": {
+        "default": {
+          "value": "#404040",
+          "type": "color",
+          "description": "Цвет радиокнопки в включённом состоянии"
+        },
+        "hover": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#404040",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "focused": {
+        "value": "#a0a0a0",
+        "type": "color"
+      }
+    },
+    "dot": {
+      "fill": {
+        "cheсked": {
+          "default": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "Цвет точки выбранного радиобаттона"
+          }
+        }
+      }
+    }
+  },
+  "checkbox": {
+    "border": {
+      "focused": {
+        "value": "#a0a0a0",
+        "type": "color"
+      },
+      "uncheсked": {
+        "default": {
+          "value": "#717171",
+          "type": "color",
+          "description": "Цвет обводки чекбокса в отключённом состоянии"
+        },
+        "hover": {
+          "value": "#595959",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#595959",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#d0d0d0",
+          "type": "color"
+        }
+      }
+    },
+    "fill": {
+      "cheсked": {
+        "default": {
+          "value": "#404040",
+          "type": "color",
+          "description": "Цвет чекбокса в включённом состоянии"
+        },
+        "hover": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#404040",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#dadada",
+          "type": "color"
+        }
+      }
+    },
+    "check": {
+      "fill": {
+        "cheсked": {
+          "default": {
+            "value": "#b8b8b8",
+            "type": "color",
+            "description": "Цвет галочки в выбранном чекбоксе"
+          }
+        }
+      }
+    },
+    "background": {
+      "uncheсked": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет фона чекбокса в отключённом состоянии"
+        },
+        "hover": {
+          "value": "#f1f1f1",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#dddddd",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "switch": {
+    "background": {
+      "on": {
+        "default": {
+          "value": "#474747",
+          "type": "color",
+          "description": "Цвет для фона в включённых тоглах"
+        },
+        "disabled": {
+          "value": "#b8b8b8",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#6f6f6f",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#212121",
+          "type": "color"
+        }
+      },
+      "off": {
+        "default": {
+          "value": "#e8e8e8",
+          "type": "color",
+          "description": "Цвет для фона в выключённых тоглах"
+        },
+        "disabled": {
+          "value": "#f3f3f3",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#e0e0e0",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#bebebe",
+          "type": "color"
+        }
+      }
+    },
+    "knob": {
+      "fill": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Цвет для кноба в тоглах"
+        }
+      }
+    }
+  },
+  "notification": {
+    "background": {
+      "default": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "description": "Основной цвет фона уведомления"
+      }
+    }
+  },
+  "toast": {
+    "background": {
+      "default": {
+        "value": "#474747",
+        "type": "color",
+        "description": "Цвет фона тоста"
+      }
+    }
+  },
+  "topnavigation": {
+    "background": {
+      "global": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Основной цвет фона верхнего навигационного бара"
+      },
+      "icon": {
+        "value": "#ffffffb3",
+        "type": "color",
+        "description": "Цвет фона подложки под иконкой (для прозрачного состояния)"
+      }
+    }
+  },
+  "tabbar": {
+    "background": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Основной цвет фона нижнего навигационного бара"
+      }
+    }
+  },
+  "tooltip": {
+    "background": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Основной цвет фона в тултипе"
+      },
+      "invert": {
+        "value": "#474747",
+        "type": "color",
+        "description": "Инвертированный тёмный цвет фона в тултипе"
+      }
+    }
+  },
+  "overlay": {
+    "background": {
+      "default": {
+        "value": "#000000a6",
+        "type": "color",
+        "description": "цвет с прозрачностью, используется для затемнения экрана при вызове модалок, боттом-шитов, уведомлений второго порядка (спотлайты, нотификации) "
+      },
+      "onboarding": {
+        "value": "#000000e6",
+        "type": "color",
+        "description": "цвет с прозрачностью, используется для затемнения экрана при вызове спотлайта, онбординга новых функций"
+      },
+      "loading": {
+        "value": "#ffffffcc",
+        "type": "color",
+        "description": "Цвет с прозрачностью, используется для блокировки экрана при загрузке и ожидания ответа от сервера"
+      }
+    }
+  },
+  "skeleton": {
+    "background": {
+      "primary": {
+        "value": "#e8e8e8",
+        "type": "color",
+        "description": "Основной цвет фона скелетона при старте пульсации"
+      },
+      "seсondary": {
+        "value": "#d9d9d9",
+        "type": "color",
+        "description": "Вторичный цвет фона скелетона при финише пульсации"
+      }
+    }
+  },
+  "label": {
+    "background": {
+      "discount": {
+        "value": "#ed0e00",
+        "type": "color",
+        "description": "Цвет для лейблов скидки"
+      },
+      "promotion": {
+        "value": "#fed731",
+        "type": "color",
+        "description": "Дополнительный цвет для лейблов промо"
+      }
+    }
+  },
+  "badge": {
+    "background": {
+      "discount": {
+        "value": "#ed0e00",
+        "type": "color",
+        "description": "Цвет для бейджей скидок"
+      },
+      "new": {
+        "value": "#409449",
+        "type": "color",
+        "description": "Цвет для бейджей новинок"
+      },
+      "neutral": {
+        "value": "#f3f3f3",
+        "type": "color",
+        "description": "Дополнительный цвет для бейджей"
+      }
+    },
+    "border": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Бордер цвет для бейджей"
+      }
+    }
+  },
+  "loader": {
+    "fill": {
+      "primary": {
+        "value": "#ed0e00",
+        "type": "color",
+        "description": "Основной цвет для лоадера"
+      },
+      "secondary": {
+        "value": "#ff8144",
+        "type": "color",
+        "description": "Второй цвет для лоадера при прокручивании"
+      },
+      "tertiary": {
+        "value": "#ffc247",
+        "type": "color",
+        "description": "Третий цвет для лоадера при прокручивании"
+      }
+    }
+  },
+  "sliderdots": {
+    "fill": {
+      "default": {
+        "value": "#d0d0d0",
+        "type": "color",
+        "description": "Основной цвет точки слайдера"
+      },
+      "selected": {
+        "value": "#2a2a2a",
+        "type": "color",
+        "description": "Цвет выбранной точки (палочки) слайдера"
+      }
+    }
+  },
+  "library": {
+    "primary": {
+      "value": "#1c1c1d",
+      "type": "color",
+      "description": "Используется для маркировки библиотеки Base\n"
+    },
+    "secondary": {
+      "value": "#f8cffd",
+      "type": "color",
+      "description": "Используется для маркировки библиотеки Base"
+    }
+  },
+  "Buttons": {
+    "S": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "M": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "L": {
+      "value": "12",
+      "type": "borderRadius"
+    }
+  },
+  "Badge": {
+    "S": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "M": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "L": {
+      "value": "24",
+      "type": "borderRadius"
+    }
+  },
+  "Checkbox": {
+    "S": {
+      "value": "2",
+      "type": "borderRadius"
+    }
+  },
+  "Chips-Filter-Tabs": {
+    "S": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "M": {
+      "value": "12",
+      "type": "borderRadius"
+    }
+  },
+  "Input-Select": {
+    "S": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "M": {
+      "value": "12",
+      "type": "borderRadius"
+    }
+  },
+  "Notification": {
+    "S": {
+      "value": "16",
+      "type": "borderRadius"
+    }
+  },
+  "Search": {
+    "S": {
+      "value": "12",
+      "type": "borderRadius"
+    }
+  },
+  "Skeleton": {
+    "S": {
+      "value": "16",
+      "type": "borderRadius"
+    }
+  },
+  "Toast": {
+    "S": {
+      "value": "12",
+      "type": "borderRadius"
+    }
+  },
+  "Tooltip": {
+    "S": {
+      "value": "16",
+      "type": "borderRadius"
+    }
+  },
+  "Button": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "Field": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "Tabs-Chips": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "CheckBox": {
+    "value": "2",
+    "type": "borderWidth"
+  },
+  "Font Family": {
+    "value": "SF Pro",
+    "type": "fontFamilies"
+  },
+  "FontWeight 100": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "FontWeight 200": {
+    "value": "Semibold",
+    "type": "fontWeights"
+  },
+  "FontWeight 300": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "FontWeight 400": {
+    "value": "ExtraBold",
+    "type": "fontWeights"
+  },
+  "FontSize 100": {
+    "value": "10",
+    "type": "fontSizes"
+  },
+  "FontSize 200": {
+    "value": "12",
+    "type": "fontSizes"
+  },
+  "FontSize 300": {
+    "value": "14",
+    "type": "fontSizes"
+  },
+  "FontSize 400": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "FontSize 500": {
+    "value": "18",
+    "type": "fontSizes"
+  },
+  "FontSize 600": {
+    "value": "20",
+    "type": "fontSizes"
+  },
+  "FontSize 700": {
+    "value": "24",
+    "type": "fontSizes"
+  },
+  "FontSize 800": {
+    "value": "28",
+    "type": "fontSizes"
+  },
+  "FontSize 900": {
+    "value": "32",
+    "type": "fontSizes"
+  },
+  "FontSize 1000": {
+    "value": "36",
+    "type": "fontSizes"
+  },
+  "FontSize 1100": {
+    "value": "40",
+    "type": "fontSizes"
+  },
+  "FontSize 1200": {
+    "value": "48",
+    "type": "fontSizes"
+  },
+  "LineHeight 100": {
+    "value": "14",
+    "type": "lineHeights"
+  },
+  "LineHeight 200": {
+    "value": "16",
+    "type": "lineHeights"
+  },
+  "LineHeight 300": {
+    "value": "18",
+    "type": "lineHeights"
+  },
+  "LineHeight 400": {
+    "value": "20",
+    "type": "lineHeights"
+  },
+  "LineHeight 500": {
+    "value": "22",
+    "type": "lineHeights"
+  },
+  "LineHeight 600": {
+    "value": "24",
+    "type": "lineHeights"
+  },
+  "LineHeight 700": {
+    "value": "26",
+    "type": "lineHeights"
+  },
+  "LineHeight 800": {
+    "value": "28",
+    "type": "lineHeights"
+  },
+  "LineHeight 900": {
+    "value": "32",
+    "type": "lineHeights"
+  },
+  "LineHeight 1000": {
+    "value": "36",
+    "type": "lineHeights"
+  },
+  "LineHeight 1100": {
+    "value": "40",
+    "type": "lineHeights"
+  },
+  "LineHeight 1200": {
+    "value": "44",
+    "type": "lineHeights"
+  },
+  "LineHeight 1300": {
+    "value": "48",
+    "type": "lineHeights"
+  },
+  "LineHeight 1400": {
+    "value": "56",
+    "type": "lineHeights"
+  },
+  "LetterSpacing 0": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 100": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 200": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 300": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 400": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 500": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 600": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 700": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 800": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 900": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "LetterSpacing 1000": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "Display": {
+    "Large": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 1400}",
+        "fontSize": "{FontSize 1200}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 1300}",
+        "fontSize": "{FontSize 1100}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 1200}",
+        "fontSize": "{FontSize 1000}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    }
+  },
+  "Headline": {
+    "Large": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 1100}",
+        "fontSize": "{FontSize 900}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 1000}",
+        "fontSize": "{FontSize 800}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 300}",
+        "lineHeight": "{LineHeight 900}",
+        "fontSize": "{FontSize 700}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    }
+  },
+  "Title": {
+    "Large": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 800}",
+        "fontSize": "{FontSize 600}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Medium": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 700}",
+        "fontSize": "{FontSize 500}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    },
+    "Small": {
+      "value": {
+        "fontFamily": "{Font Family}",
+        "fontWeight": "{FontWeight 200}",
+        "lineHeight": "{LineHeight 600}",
+        "fontSize": "{FontSize 400}",
+        "letterSpacing": "{LetterSpacing 0}"
+      },
+      "type": "typography"
+    }
+  },
+  "Body": {
+    "Large": {
+      "Accent": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 600}",
+          "fontSize": "{FontSize 400}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Accent-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 400}",
+          "fontSize": "{FontSize 400}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 600}",
+          "fontSize": "{FontSize 400}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 400}",
+          "fontSize": "{FontSize 400}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      }
+    },
+    "Small": {
+      "Accent": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 500}",
+          "fontSize": "{FontSize 300}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Accent-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 300}",
+          "fontSize": "{FontSize 300}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 500}",
+          "fontSize": "{FontSize 300}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 300}",
+          "fontSize": "{FontSize 300}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "Caption": {
+    "Large": {
+      "Accent": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 400}",
+          "fontSize": "{FontSize 200}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Accent-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 200}",
+          "fontSize": "{FontSize 200}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 400}",
+          "fontSize": "{FontSize 200}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 200}",
+          "fontSize": "{FontSize 200}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      }
+    },
+    "Small": {
+      "Accent": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 300}",
+          "fontSize": "{FontSize 100}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Accent-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 200}",
+          "lineHeight": "{LineHeight 100}",
+          "fontSize": "{FontSize 100}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 300}",
+          "fontSize": "{FontSize 100}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      },
+      "Regular-low": {
+        "value": {
+          "fontFamily": "{Font Family}",
+          "fontWeight": "{FontWeight 100}",
+          "lineHeight": "{LineHeight 100}",
+          "fontSize": "{FontSize 100}",
+          "letterSpacing": "{LetterSpacing 0}"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "DropDown": {
+    "value": "12",
+    "type": "borderWidth"
+  }
+}
