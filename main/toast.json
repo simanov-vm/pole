@@ -1,9 +1,0 @@
-{
-  "background": {
-    "default": {
-      "value": "#474747",
-      "type": "color",
-      "description": "Цвет фона тоста"
-    }
-  }
-}
