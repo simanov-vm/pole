@@ -696,7 +696,26 @@
       "sliderdots.fill.default": "S:cf84f7589e9dd95ad52f0949d5e7750efc45b47d,",
       "sliderdots.fill.selected": "S:a449de975298a9fed627ce6c3b4841112d4efd82,",
       "library.primary": "S:c5790f9b4792f212b035724817528aab120b9f8c,",
-      "library.secondary": "S:bbda39681d6f6ecfd30ed8c0e3960d0eba79b4ec,"
+      "library.secondary": "S:bbda39681d6f6ecfd30ed8c0e3960d0eba79b4ec,",
+      "text.accent": "S:85727cd6345d67ac91a980075a93ae65e97ac017,",
+      "success.background.weak.default": "S:70f24bd27cdc3a8d0827a3c056416ac4c959d82e,",
+      "success.background.weak.hover": "S:8394d2d9925da2e175a4e54d7e68ada93c90b6e1,",
+      "success.background.weak.pressed": "S:66b91a3f624cca9bfc60bdf156be776d74947458,",
+      "success.background.accent.default": "S:741fbcec9773276b8cbdd40b647c6a81c09cc8dd,",
+      "success.background.accent.hover": "S:21e12424443392d19bed4cab5042745885586f18,",
+      "success.background.accent.pressed": "S:c3bdbdb4a4699034a55920a2c1be161b32ae13c8,",
+      "warning.background.weak.default": "S:25c3a190e54d68d6d2cbfd9247f637a2bb79fb14,",
+      "warning.background.weak.hover": "S:21b67854a9d0b839060872118df2e65cfd5bd720,",
+      "warning.background.weak.pressed": "S:644dbecefa757a222cc4cda60c3811f5dba1afc6,",
+      "warning.background.accent.pressed": "S:26fbe1f9ba8532f3876cfc2e435d3885a5fa6385,",
+      "warning.background.accent.default": "S:fe190776f63ae92dd98488aaffb3cc9ef8169bec,",
+      "warning.background.accent.hover": "S:dd0eaab7e0d11957049c4ac3d62bcd4d3e04a9df,",
+      "error.background.weak.default": "S:2f2968598973be09a366d31e68474ed6c1e9dd46,",
+      "error.background.weak.hover": "S:bf0d58fb372040a0f93a25c6af36a63d2a539fc3,",
+      "error.background.weak.pressed": "S:97f8fa2831db425d1243d1d8b18996b93a12d43e,",
+      "error.background.accent.default": "S:b3385dad6e2992393f5aa7c3f3b3e59b9cf31695,",
+      "error.background.accent.hover": "S:e5971e0e04fbd526ffe3607083b7fa35cc22a234,",
+      "error.background.accent.pressed": "S:e06ad061b81422e3bb9fe796d09f6a89e1b66aed,"
     }
   }
 ]

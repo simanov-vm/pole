@@ -433,20 +433,20 @@
     "background": {
       "primary": {
         "default": {
-          "value": "#141414",
+          "value": "#ED0E00",
           "type": "color",
           "description": "Основной цвет для всех кнопок. Используется по умолчанию для всех главных кнопок в макете."
         },
         "hover": {
-          "value": "#414141",
+          "value": "#F13E33",
           "type": "color"
         },
         "pressed": {
-          "value": "#000000",
+          "value": "#ce0e00",
           "type": "color"
         },
         "disabled": {
-          "value": "#b8b8b8",
+          "value": "#FFAFAA",
           "type": "color"
         }
       },
