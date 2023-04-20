@@ -281,20 +281,18 @@
     }
   },
   "success": {
-    "background": {
+    "border": {
       "default": {
-        "value": "#eaf7eb",
+        "value": "#acdeb1",
         "type": "color",
-        "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#e4f3e5",
-        "type": "color"
+        "description": "Обводка по умолчанию для карточек, алертов, нотификаций, полей ввода, селекторов, инпутов с успехом.\n\nИспользуется, когда надо обвести какой-то элемент с состоянием успеха. Например, мы ввели правильно код из СМС. При этом фокус из поля убран. Или уведомление нотификации с состоянием успеха."
       },
       "pressed": {
-        "value": "#dff0e0",
+        "value": "#2c7e34",
         "type": "color"
-      },
+      }
+    },
+    "background": {
       "weak": {
         "default": {
           "value": "#eaf7eb",
@@ -324,35 +322,9 @@
           "type": "color"
         }
       }
-    },
-    "border": {
-      "default": {
-        "value": "#acdeb1",
-        "type": "color",
-        "description": "Обводка по умолчанию для карточек, алертов, нотификаций, полей ввода, селекторов, инпутов с успехом.\n\nИспользуется, когда надо обвести какой-то элемент с состоянием успеха. Например, мы ввели правильно код из СМС. При этом фокус из поля убран. Или уведомление нотификации с состоянием успеха."
-      },
-      "pressed": {
-        "value": "#2c7e34",
-        "type": "color"
-      }
     }
   },
   "warning": {
-    "background": {
-      "default": {
-        "value": "#fff5eb",
-        "type": "color",
-        "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#fff2e4",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#feefde",
-        "type": "color"
-      }
-    },
     "border": {
       "default": {
         "value": "#fcc693",
@@ -363,24 +335,40 @@
         "value": "#c14600",
         "type": "color"
       }
+    },
+    "background": {
+      "weak": {
+        "default": {
+          "value": "#fff5eb",
+          "type": "color",
+          "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#fff2e4",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#feefde",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "pressed": {
+          "value": "#ac3e00",
+          "type": "color"
+        },
+        "default": {
+          "value": "#c14600",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#cf5109",
+          "type": "color"
+        }
+      }
     }
   },
   "error": {
-    "background": {
-      "default": {
-        "value": "#fbf2f2",
-        "type": "color",
-        "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#f9eded",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#f8e8e8",
-        "type": "color"
-      }
-    },
     "border": {
       "default": {
         "value": "#e7b5b5",
@@ -390,6 +378,37 @@
       "pressed": {
         "value": "#ad0000",
         "type": "color"
+      }
+    },
+    "background": {
+      "weak": {
+        "default": {
+          "value": "#fbf2f2",
+          "type": "color",
+          "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#f9eded",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#f8e8e8",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "#ad0000",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#be0622",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#950000",
+          "type": "color"
+        }
       }
     }
   },

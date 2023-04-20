@@ -281,21 +281,6 @@
     }
   },
   "success": {
-    "background": {
-      "default": {
-        "value": "#eaf7eb",
-        "type": "color",
-        "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#e4f3e5",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#dff0e0",
-        "type": "color"
-      }
-    },
     "border": {
       "default": {
         "value": "#acdeb1",
@@ -306,24 +291,40 @@
         "value": "#2c7e34",
         "type": "color"
       }
+    },
+    "background": {
+      "weak": {
+        "default": {
+          "value": "#eaf7eb",
+          "type": "color",
+          "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#e4f3e5",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#dff0e0",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "#2c7e34",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#358e3e",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#246c2b",
+          "type": "color"
+        }
+      }
     }
   },
   "warning": {
-    "background": {
-      "default": {
-        "value": "#fff5eb",
-        "type": "color",
-        "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#fff2e4",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#feefde",
-        "type": "color"
-      }
-    },
     "border": {
       "default": {
         "value": "#fcc693",
@@ -334,24 +335,40 @@
         "value": "#c14600",
         "type": "color"
       }
+    },
+    "background": {
+      "weak": {
+        "default": {
+          "value": "#fff5eb",
+          "type": "color",
+          "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#fff2e4",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#feefde",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "pressed": {
+          "value": "#ac3e00",
+          "type": "color"
+        },
+        "default": {
+          "value": "#c14600",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#cf5109",
+          "type": "color"
+        }
+      }
     }
   },
   "error": {
-    "background": {
-      "default": {
-        "value": "#fbf2f2",
-        "type": "color",
-        "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
-      },
-      "hover": {
-        "value": "#f9eded",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#f8e8e8",
-        "type": "color"
-      }
-    },
     "border": {
       "default": {
         "value": "#e7b5b5",
@@ -361,6 +378,37 @@
       "pressed": {
         "value": "#ad0000",
         "type": "color"
+      }
+    },
+    "background": {
+      "weak": {
+        "default": {
+          "value": "#fbf2f2",
+          "type": "color",
+          "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#f9eded",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#f8e8e8",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "#ad0000",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#be0622",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#950000",
+          "type": "color"
+        }
       }
     }
   },
@@ -1663,5 +1711,14 @@
   "DropDown": {
     "value": "12",
     "type": "borderWidth"
+  },
+  "color": {
+    "text": {
+      "price": {
+        "value": "#d80000",
+        "type": "color",
+        "description": "Для выделения цены со скидкой в карточке товара"
+      }
+    }
   }
 }

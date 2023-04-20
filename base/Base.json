@@ -326,18 +326,34 @@
   },
   "warning": {
     "background": {
-      "default": {
-        "value": "#fff5eb",
-        "type": "color",
-        "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+      "weak": {
+        "default": {
+          "value": "#fff5eb",
+          "type": "color",
+          "description": "Системный цвет предупреждения по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#fff2e4",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#feefde",
+          "type": "color"
+        }
       },
-      "hover": {
-        "value": "#fff2e4",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#feefde",
-        "type": "color"
+      "accent": {
+        "pressed": {
+          "value": "#ac3e00",
+          "type": "color"
+        },
+        "default": {
+          "value": "#c14600",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#cf5109",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -354,18 +370,34 @@
   },
   "error": {
     "background": {
-      "default": {
-        "value": "#fbf2f2",
-        "type": "color",
-        "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+      "weak": {
+        "default": {
+          "value": "#fbf2f2",
+          "type": "color",
+          "description": "Системный цвет ошибки по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#f9eded",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#f8e8e8",
+          "type": "color"
+        }
       },
-      "hover": {
-        "value": "#f9eded",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "#f8e8e8",
-        "type": "color"
+      "accent": {
+        "default": {
+          "value": "#ad0000",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#be0622",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#950000",
+          "type": "color"
+        }
       }
     },
     "border": {
