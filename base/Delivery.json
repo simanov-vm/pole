@@ -294,6 +294,35 @@
       "pressed": {
         "value": "#dff0e0",
         "type": "color"
+      },
+      "weak": {
+        "default": {
+          "value": "#eaf7eb",
+          "type": "color",
+          "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
+        },
+        "hover": {
+          "value": "#e4f3e5",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#dff0e0",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "#2c7e34",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#358e3e",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#246c2b",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -1663,5 +1692,14 @@
   "DropDown": {
     "value": "12",
     "type": "borderWidth"
+  },
+  "color": {
+    "text": {
+      "price": {
+        "value": "#d80000",
+        "type": "color",
+        "description": "Для выделения цены со скидкой в карточке товара"
+      }
+    }
   }
 }
