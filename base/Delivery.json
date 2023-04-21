@@ -610,20 +610,20 @@
     "text": {
       "inline": {
         "default": {
-          "value": "#242424",
+          "value": "#ED0E00",
           "type": "color",
           "description": "Основной цвет текста инлайн кнопок"
         },
         "hover": {
-          "value": "#525252",
+          "value": "#F13E33",
           "type": "color"
         },
         "pressed": {
-          "value": "#000000",
+          "value": "#ce0e00",
           "type": "color"
         },
         "disabled": {
-          "value": "#b8b8b8",
+          "value": "#FFAFAA",
           "type": "color"
         }
       },
