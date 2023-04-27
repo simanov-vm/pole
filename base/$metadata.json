@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Base",
     "Delivery",
-    "Core"
+    "Core",
+    "Internal"
   ]
 }
