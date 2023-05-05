@@ -1716,5 +1716,95 @@
   "DropDown": {
     "value": "12",
     "type": "borderWidth"
+  },
+  "project": {
+    "core": {
+      "primary": {
+        "value": "#ed0e00",
+        "type": "color",
+        "description": "Акцентный цвет для Кора"
+      },
+      "secondary": {
+        "value": "#f13e33",
+        "type": "color",
+        "description": "Второй акцентный цвет для Кора"
+      },
+      "light": {
+        "value": "#ffafaa",
+        "type": "color",
+        "description": "Слабый цвет для Сore"
+      },
+      "pale": {
+        "value": "#ffe2e0",
+        "type": "color",
+        "description": "Второй слабый цвет для Кора"
+      }
+    },
+    "cosmetic": {
+      "primary": {
+        "value": "#d01481",
+        "type": "color",
+        "description": "Основной акцентный цвет Косметика"
+      },
+      "secondary": {
+        "value": "#d9439a",
+        "type": "color",
+        "description": "Второй акцентный цвет Косметика"
+      },
+      "light": {
+        "value": "#e789c0",
+        "type": "color",
+        "description": "Разбеленный цвет Косметика"
+      },
+      "pale": {
+        "value": "#f6d0e6",
+        "type": "color",
+        "description": "Второй слабы цвет Косметика"
+      }
+    },
+    "apteka": {
+      "primary": {
+        "value": "#1598a6",
+        "type": "color",
+        "description": "Основной акцентный цвет Аптеки"
+      },
+      "secondary": {
+        "value": "#44adb8",
+        "type": "color",
+        "description": "Второй акцентный цвет Аптеки"
+      },
+      "light": {
+        "value": "#5ccbd6",
+        "type": "color",
+        "description": "Слабый цвет Аптеки"
+      },
+      "pale": {
+        "value": "#ceeff3",
+        "type": "color",
+        "description": "Второй слабый цвет Аптеки"
+      }
+    },
+    "master": {
+      "primary": {
+        "value": "#09546e",
+        "type": "color",
+        "description": "Основной цвет Мастера"
+      },
+      "secondary": {
+        "value": "#3a768b",
+        "type": "color",
+        "description": "Второй акцентный цвет Мастера"
+      },
+      "light": {
+        "value": "#84a9b6",
+        "type": "color",
+        "description": "Разбеленный цвет Мастера"
+      },
+      "pale": {
+        "value": "#cedde2",
+        "type": "color",
+        "description": "Второй слабый цвет Мастера"
+      }
+    }
   }
 }
