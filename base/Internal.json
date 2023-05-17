@@ -1277,7 +1277,7 @@
     "value": "2",
     "type": "borderWidth"
   },
-  "Font Family": {
+  "FontFamily1": {
     "value": "Magnit Sans",
     "type": "fontFamilies"
   },
@@ -1448,7 +1448,7 @@
   "Display": {
     "Large": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 1400}",
         "fontSize": "{FontSize 1200}",
@@ -1458,7 +1458,7 @@
     },
     "Medium": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 1300}",
         "fontSize": "{FontSize 1100}",
@@ -1468,7 +1468,7 @@
     },
     "Small": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 1200}",
         "fontSize": "{FontSize 1000}",
@@ -1480,7 +1480,7 @@
   "Headline": {
     "Large": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 1100}",
         "fontSize": "{FontSize 900}",
@@ -1490,7 +1490,7 @@
     },
     "Medium": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 1000}",
         "fontSize": "{FontSize 800}",
@@ -1500,7 +1500,7 @@
     },
     "Small": {
       "value": {
-        "fontFamily": "{FontFamily1}",
+        "fontFamily": "{FontFamily2}",
         "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 900}",
         "fontSize": "{FontSize 700}",
@@ -1512,8 +1512,8 @@
   "Title": {
     "Large": {
       "value": {
-        "fontFamily": "{FontFamily1}",
-        "fontWeight": "{FontWeight 200}",
+        "fontFamily": "{FontFamily2}",
+        "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 800}",
         "fontSize": "{FontSize 600}",
         "letterSpacing": "{LetterSpacing 0}"
@@ -1806,5 +1806,9 @@
         "description": "Второй слабый цвет Мастера"
       }
     }
+  },
+  "FontFamily2": {
+    "value": "Magnit Box",
+    "type": "fontFamilies"
   }
 }
