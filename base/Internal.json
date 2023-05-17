@@ -1523,7 +1523,7 @@
     "Medium": {
       "value": {
         "fontFamily": "{FontFamily1}",
-        "fontWeight": "{FontWeight 200}",
+        "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 700}",
         "fontSize": "{FontSize 500}",
         "letterSpacing": "{LetterSpacing 0}"
@@ -1533,7 +1533,7 @@
     "Small": {
       "value": {
         "fontFamily": "{FontFamily1}",
-        "fontWeight": "{FontWeight 200}",
+        "fontWeight": "{FontWeight 300}",
         "lineHeight": "{LineHeight 600}",
         "fontSize": "{FontSize 400}",
         "letterSpacing": "{LetterSpacing 0}"
