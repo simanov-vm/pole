@@ -598,10 +598,6 @@
         "value": "#b8b8b8",
         "type": "color"
       },
-      "focused": {
-        "value": "#a0a0a0",
-        "type": "color"
-      },
       "disabled": {
         "value": "#ededed",
         "type": "color"
@@ -850,12 +846,6 @@
         }
       }
     },
-    "border": {
-      "focused": {
-        "value": "#a0a0a0",
-        "type": "color"
-      }
-    },
     "dot": {
       "fill": {
         "cheсked": {
@@ -870,10 +860,6 @@
   },
   "checkbox": {
     "border": {
-      "focused": {
-        "value": "#a0a0a0",
-        "type": "color"
-      },
       "uncheсked": {
         "default": {
           "value": "#717171",
