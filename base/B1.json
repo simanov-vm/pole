@@ -997,7 +997,7 @@
   "toast": {
     "background": {
       "default": {
-        "value": "#051A0C",
+        "value": "#042612",
         "type": "color",
         "description": "Цвет фона тоста"
       }
@@ -1218,19 +1218,19 @@
   },
   "Notification": {
     "S": {
-      "value": "16",
+      "value": "4",
       "type": "borderRadius"
     }
   },
   "Search": {
     "S": {
-      "value": "12",
+      "value": "4",
       "type": "borderRadius"
     }
   },
   "Skeleton": {
     "S": {
-      "value": "16",
+      "value": "4",
       "type": "borderRadius"
     }
   },
