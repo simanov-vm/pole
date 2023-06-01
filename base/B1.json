@@ -703,7 +703,7 @@
     "background": {
       "selected": {
         "default": {
-          "value": "#474747",
+          "value": "#008C38",
           "type": "color",
           "description": "Цвет для выбранного чипса, таба, фильтра"
         },
@@ -718,7 +718,7 @@
       },
       "primary": {
         "default": {
-          "value": "#f5f5f5",
+          "value": "#C4E3C2",
           "type": "color",
           "description": "Основной цвет невыбранного для чипса, таба, фильтра по умолчанию"
         },
