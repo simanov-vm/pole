@@ -1263,23 +1263,23 @@
     "type": "borderWidth"
   },
   "FontFamily1": {
-    "value": "Magnit Sans",
+    "value": "Golos",
     "type": "fontFamilies"
   },
   "FontWeight 100": {
-    "value": "Regular",
+    "value": "Text Regular",
     "type": "fontWeights"
   },
   "FontWeight 200": {
-    "value": "Meduim",
+    "value": "Text Medium",
     "type": "fontWeights"
   },
   "FontWeight 300": {
-    "value": "Bold",
+    "value": "Text Bold",
     "type": "fontWeights"
   },
   "FontWeight 400": {
-    "value": "ExtraBold",
+    "value": "Text Black",
     "type": "fontWeights"
   },
   "FontSize 100": {
@@ -1793,7 +1793,7 @@
     }
   },
   "FontFamily2": {
-    "value": "Magnit Box",
+    "value": "Golos",
     "type": "fontFamilies"
   },
   "tabulation": {
