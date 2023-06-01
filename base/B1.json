@@ -1208,11 +1208,11 @@
   },
   "Input-Select": {
     "S": {
-      "value": "12",
+      "value": "4",
       "type": "borderRadius"
     },
     "M": {
-      "value": "12",
+      "value": "4",
       "type": "borderRadius"
     }
   },
