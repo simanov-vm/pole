@@ -127,7 +127,7 @@
       },
       "system": {
         "success": {
-          "value": "#2c7e34",
+          "value": "#0D7637",
           "type": "color",
           "description": "Цвет состояния успеха для иконок"
         },
@@ -300,30 +300,30 @@
     "background": {
       "weak": {
         "default": {
-          "value": "#eaf7eb",
+          "value": "#EAF7EB",
           "type": "color",
           "description": "Системный цвет успеха по умолчанию. Может применяться в Input, Text Area, Select, Input code."
         },
         "hover": {
-          "value": "#e4f3e5",
+          "value": "#E4F0E3",
           "type": "color"
         },
         "pressed": {
-          "value": "#dff0e0",
+          "value": "#E9F5E8",
           "type": "color"
         }
       },
       "accent": {
         "default": {
-          "value": "#2c7e34",
+          "value": "#0D7637",
           "type": "color"
         },
         "hover": {
-          "value": "#358e3e",
+          "value": "#118841",
           "type": "color"
         },
         "pressed": {
-          "value": "#246c2b",
+          "value": "#0B6C32",
           "type": "color"
         }
       }
@@ -997,7 +997,7 @@
   "toast": {
     "background": {
       "default": {
-        "value": "#474747",
+        "value": "#051A0C",
         "type": "color",
         "description": "Цвет фона тоста"
       }
