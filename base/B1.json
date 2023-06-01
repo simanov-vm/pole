@@ -433,20 +433,20 @@
     "background": {
       "primary": {
         "default": {
-          "value": "#ED0E00",
+          "value": "#008C38",
           "type": "color",
           "description": "Основной цвет для всех кнопок. Используется по умолчанию для всех главных кнопок в макете."
         },
         "hover": {
-          "value": "#F13E33",
+          "value": "#1A974C",
           "type": "color"
         },
         "pressed": {
-          "value": "#ce0e00",
+          "value": "#008C38",
           "type": "color"
         },
         "disabled": {
-          "value": "#FFAFAA",
+          "value": "#B8B8B8",
           "type": "color"
         }
       },
@@ -606,20 +606,20 @@
     "text": {
       "inline": {
         "default": {
-          "value": "#ED0E00",
+          "value": "#008C38",
           "type": "color",
           "description": "Основной цвет текста инлайн кнопок"
         },
         "hover": {
-          "value": "#F13E33",
+          "value": "#1A974C",
           "type": "color"
         },
         "pressed": {
-          "value": "#ce0e00",
+          "value": "#008C38",
           "type": "color"
         },
         "disabled": {
-          "value": "#FFAFAA",
+          "value": "#B8B8B8",
           "type": "color"
         }
       },

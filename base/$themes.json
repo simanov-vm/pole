@@ -3,8 +3,7 @@
     "id": "00b6b9a379aedb8a1e782e7e6af0ea4b39efa378",
     "name": "Pole Base",
     "selectedTokenSets": {
-      "Base": "enabled",
-      "B1": "disabled"
+      "Base": "enabled"
     },
     "$figmaStyleReferences": {
       "Display.Large": "S:3957117e5d4a5e4e9eb0af432af4a76db718f56a,",
@@ -244,8 +243,7 @@
     "id": "a2f0ec2353ceacd58694c96c0f7860a88ca0358c",
     "name": "Core Base",
     "selectedTokenSets": {
-      "Core": "enabled",
-      "B1": "disabled"
+      "Core": "enabled"
     },
     "$figmaStyleReferences": {
       "Display.Large": "S:1b532bc229d70647bbeb4b6f1f97a166a0ebaada,",
@@ -469,8 +467,7 @@
     "id": "d4fa7372b28d31ff9ea8395c67acfceaf969a5ce",
     "name": "Delivery Base",
     "selectedTokenSets": {
-      "Delivery": "enabled",
-      "B1": "disabled"
+      "Delivery": "enabled"
     },
     "$figmaStyleReferences": {
       "Display.Large": "S:ecb402a15f38773a73cd86247da1009d2498e017,",
@@ -713,8 +710,7 @@
     "id": "991439aa787858f710f08938d36dc5e0559a95d3",
     "name": "Internal Base",
     "selectedTokenSets": {
-      "Internal": "enabled",
-      "B1": "disabled"
+      "Internal": "enabled"
     },
     "$figmaStyleReferences": {
       "Display.Large": "S:d8a730ac761de1c3557638d1644eee241126aa5e,",
