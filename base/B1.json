@@ -586,16 +586,16 @@
     },
     "border": {
       "default": {
-        "value": "#ededed",
+        "value": "#B3DDC3",
         "type": "color",
         "description": "Обводка кнопки по умолчанию. \n"
       },
       "hover": {
-        "value": "#d6d6d6",
+        "value": "#95CFAC",
         "type": "color"
       },
       "pressed": {
-        "value": "#b8b8b8",
+        "value": "#7BC397",
         "type": "color"
       },
       "disabled": {
