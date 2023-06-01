@@ -476,11 +476,11 @@
           "description": "Прозрачный цвет для кнопок. Это кнопки, в которых нет фона. \n"
         },
         "hover": {
-          "value": "#b3b3b31a",
+          "value": "hsla(116, 37%, 83%, 0.1)",
           "type": "color"
         },
         "pressed": {
-          "value": "#b6b6b633",
+          "value": "hsla(116, 37%, 83%, 0.15)",
           "type": "color"
         },
         "disabled": {
