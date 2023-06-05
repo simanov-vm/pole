@@ -438,11 +438,11 @@
           "description": "Основной цвет для всех кнопок. Используется по умолчанию для всех главных кнопок в макете."
         },
         "hover": {
-          "value": "#1A974C",
+          "value": "#0B853B",
           "type": "color"
         },
         "pressed": {
-          "value": "#008C38",
+          "value": "#027A32",
           "type": "color"
         },
         "disabled": {
@@ -457,11 +457,11 @@
           "description": "Второстепенный цвет для кнопок, на которые можно нажать\n\nНе использовать на цветных поверхностях, если нужен второстепенный цвет на яркой поверхности — попробуй invert или ghost"
         },
         "hover": {
-          "value": "#C2E0C0",
+          "value": "#BADBB8",
           "type": "color"
         },
         "pressed": {
-          "value": "#C0DEBE",
+          "value": "#B0D1AE",
           "type": "color"
         },
         "disabled": {
@@ -611,11 +611,11 @@
           "description": "Основной цвет текста инлайн кнопок"
         },
         "hover": {
-          "value": "#1A974C",
+          "value": "#0B853B",
           "type": "color"
         },
         "pressed": {
-          "value": "#008C38",
+          "value": "#027A32",
           "type": "color"
         },
         "disabled": {
@@ -708,11 +708,11 @@
           "description": "Цвет для выбранного чипса, таба, фильтра"
         },
         "hover": {
-          "value": "#525252",
+          "value": "#0B853B",
           "type": "color"
         },
         "pressed": {
-          "value": "#393939",
+          "value": "#027A32",
           "type": "color"
         }
       },
@@ -723,15 +723,15 @@
           "description": "Основной цвет невыбранного для чипса, таба, фильтра по умолчанию"
         },
         "hover": {
-          "value": "#f0f0f0",
+          "value": "#BADBB8",
           "type": "color"
         },
         "pressed": {
-          "value": "#ededed",
+          "value": "#B0D1AE",
           "type": "color"
         },
         "disabled": {
-          "value": "#f3f3f3",
+          "value": "#F5F5F5",
           "type": "color"
         }
       },
@@ -828,20 +828,20 @@
       },
       "cheсked": {
         "default": {
-          "value": "#404040",
+          "value": "#0D7637",
           "type": "color",
           "description": "Цвет радиокнопки в включённом состоянии"
         },
         "hover": {
-          "value": "#525252",
+          "value": "#0A662F",
           "type": "color"
         },
         "pressed": {
-          "value": "#404040",
+          "value": "#08612B",
           "type": "color"
         },
         "disabled": {
-          "value": "#b8b8b8",
+          "value": "#D0D0D0",
           "type": "color"
         }
       }
@@ -883,20 +883,20 @@
     "fill": {
       "cheсked": {
         "default": {
-          "value": "#404040",
+          "value": "#0D7637",
           "type": "color",
           "description": "Цвет чекбокса в включённом состоянии"
         },
         "hover": {
-          "value": "#525252",
+          "value": "#0A662F",
           "type": "color"
         },
         "pressed": {
-          "value": "#404040",
+          "value": "#08612B",
           "type": "color"
         },
         "disabled": {
-          "value": "#dadada",
+          "value": "#D0D0D0",
           "type": "color"
         }
       }
@@ -943,11 +943,11 @@
           "description": "Цвет для фона в включённых тоглах"
         },
         "hover": {
-          "value": "#0C7034",
+          "value": "#0A662F",
           "type": "color"
         },
         "pressed": {
-          "value": "#0C7034",
+          "value": "#08612B",
           "type": "color"
         },
         "disabled": {
