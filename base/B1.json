@@ -826,7 +826,7 @@
           "type": "color"
         }
       },
-      "cheсked": {
+      "checked": {
         "default": {
           "value": "#0D7637",
           "type": "color",
@@ -881,7 +881,7 @@
       }
     },
     "fill": {
-      "cheсked": {
+      "checked": {
         "default": {
           "value": "#0D7637",
           "type": "color",
@@ -903,9 +903,9 @@
     },
     "check": {
       "fill": {
-        "cheсked": {
+        "checked": {
           "default": {
-            "value": "#b8b8b8",
+            "value": "#FFFFFF",
             "type": "color",
             "description": "Цвет галочки в выбранном чекбоксе"
           }

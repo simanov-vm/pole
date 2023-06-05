@@ -1181,7 +1181,11 @@
       "project.master.secondary": "S:9119858c200724370b6e65b53e59c7e26f8844dc,",
       "project.master.light": "S:cf34e86f77ebf541158790ddfd745dada11d2b94,",
       "project.master.pale": "S:9e27c0bc3c57873efcaad0964f0e4bd08bc93b69,",
-      "tabulation.border.focused": "S:8360f1c1cc6724333bf01167613acccb02a1abfe,"
+      "tabulation.border.focused": "S:8360f1c1cc6724333bf01167613acccb02a1abfe,",
+      "radiobutton.fill.checked.default": "S:d755f73444ace623a5a235587cf255af6195bfca,",
+      "radiobutton.fill.checked.hover": "S:45c9cda9e892336ae75b5fdfc096c198619eb87c,",
+      "radiobutton.fill.checked.pressed": "S:e2b14c7075f0aa08a6642766e706b25c9d466eb9,",
+      "radiobutton.fill.checked.disabled": "S:288324a564188a1b9a3185099a203053411e67d8,"
     },
     "selectedTokenSets": {
       "B1": "enabled"
