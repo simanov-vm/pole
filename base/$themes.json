@@ -2,9 +2,6 @@
   {
     "id": "00b6b9a379aedb8a1e782e7e6af0ea4b39efa378",
     "name": "Pole Base",
-    "selectedTokenSets": {
-      "Base": "enabled"
-    },
     "$figmaStyleReferences": {
       "Display.Large": "S:3957117e5d4a5e4e9eb0af432af4a76db718f56a,",
       "Display.Small": "S:a5f6b06090c7bddff395fd584fb8821a61fa0d31,",
@@ -211,7 +208,6 @@
       "overlay.background.onboarding": "S:d42c12780cff5463d7b2910042a945f8965bb5f0,",
       "overlay.background.loading": "S:0c56c426b05f2bb337fb536f472e16275879c14c,",
       "skeleton.background.primary": "S:9d88df8289155884b142d2be94d55e29f0716c12,",
-      "skeleton.background.seсondary": "S:c322feae8ded666dffeabb717d882d01b358e8f8,",
       "label.background.discount": "S:f9d3bd5722cf6e1efff289aa0912c2b727834c09,",
       "label.background.promotion": "S:a1161abf6fb6d30e903d591a09f2cc8b6a8cd37a,",
       "badge.background.discount": "S:e974664108affebf5223b66efaa461c9f3e1c859,",
@@ -236,7 +232,61 @@
       "warning.background.weak.hover": "S:a4488eff810dadb77d94792e8a25aed853367334,",
       "warning.background.weak.pressed": "S:7073238f60e318b728e2f3e531730a1cba9f7c9c,",
       "success.background.accent.hover": "S:e48aac42fd3bf8f87c5906a432c04bd2c3054239,",
-      "success.background.accent.pressed": "S:6a46d9b464e921d9da487c3956166586a9ee6ede,"
+      "success.background.accent.pressed": "S:6a46d9b464e921d9da487c3956166586a9ee6ede,",
+      "text.accent": "S:2a8f403b79f8bd576d3b5c4dc01af9cd2d009726,",
+      "warning.background.accent.pressed": "S:5b76459f32169080dcf2af6c9bf16772073fca67,",
+      "warning.background.accent.default": "S:ea45c01bdf6e10085c1a345695b2e007b2830261,",
+      "warning.background.accent.hover": "S:072172ed117c971ee258cfec4141e52deeee055d,",
+      "error.background.weak.default": "S:d362a901c0060dbf1293b0b7524a1bd958b011cb,",
+      "error.background.weak.hover": "S:d459407c83717b661bd419ac0051b44df085c945,",
+      "error.background.weak.pressed": "S:a6c7fd27fcc246e1ff0fb576a0bd99e4ab3e9f32,",
+      "error.background.accent.default": "S:72c0e1b9dc5785bb7c12cc5488513d03c0dc46e3,",
+      "error.background.accent.hover": "S:f643182c49ca01685c7aabed6ea59c424a0d7241,",
+      "error.background.accent.pressed": "S:1010c456b2fb31202cc044d0ae0de3cdbdec56f0,",
+      "badge.background.discount2": "S:d6ba428a51fcad66afb031c0a7bde8a522351875,",
+      "project.core.primary": "S:b7ac4c4c2031f9c4043ec770a8d711199646ab5c,",
+      "project.core.secondary": "S:0ed84a43bfa88e556bf55f7a6457e9f416bd2850,",
+      "project.core.light": "S:2e82207dab2e25e4b53aa37cd874137b86299f8c,",
+      "project.core.pale": "S:c42f6c019fe6686752c98116c4a46cf2c5571246,",
+      "project.cosmetic.primary": "S:3e026f69abab1e1df09e0fed27d0ccf6a67ca97b,",
+      "project.cosmetic.secondary": "S:74b5bbb5af9491d91e166c30f7c9c60618c82567,",
+      "project.cosmetic.light": "S:002d1dbada308d9185c361f860bb764e24e6af77,",
+      "project.cosmetic.pale": "S:bfe7381d2f76fc61b7b62fb7b53a9a2d381316b5,",
+      "project.apteka.primary": "S:4189b5e9abb406b15aa24a81ed63c82102c18549,",
+      "project.apteka.secondary": "S:dd3ef7f4d1f0e0fc85991dccf49ba16889cc7039,",
+      "project.apteka.light": "S:fc5f87705f85abc75304446f6996fb83404a5da7,",
+      "project.apteka.pale": "S:13e648cd71dd25f02dd2994af7b54509ef236e5c,",
+      "project.master.primary": "S:94cf9e4e4dfefde76a45ff90a090b220e69c7cd0,",
+      "project.master.secondary": "S:3eca5a7e1a5c9d9f890ddad2549cd76b6128dc3b,",
+      "project.master.light": "S:bb80dc6d266a2bcbadd78f7b3fe6744ab3ab1e53,",
+      "project.master.pale": "S:f0406269c55fcc466f54b1ebf5ea0171e29f8b5d,",
+      "tabulation.border.focused": "S:31386f2338af351e7f20b11aadce3ebf7b9c98c4,",
+      "skeleton.background.secondary": "S:c322feae8ded666dffeabb717d882d01b358e8f8,",
+      "radiobutton.fill.unchecked.default": "S:c7554f993b479f943b95c3dd5b70c11ce7b49cfd,",
+      "radiobutton.fill.unchecked.hover": "S:f4f9b5483e62b2d19dbf11a509327a096b0b6dc5,",
+      "radiobutton.fill.unchecked.pressed": "S:57474cdb30a7e54f1c45fd5408791bf585d2b2c6,",
+      "radiobutton.fill.unchecked.disabled": "S:c25b853b0eac6dae6fd46c36d0c437e6bab7727f,",
+      "radiobutton.fill.checked.default": "S:bb56a0ae86184f0d16ad0e61692e91780ac3c8f1,",
+      "radiobutton.fill.checked.hover": "S:251f00e8006bbf54d72f5962bed012524f932ed8,",
+      "radiobutton.fill.checked.pressed": "S:b9bb9330e5fa089495feab62ec6a8ecad55dda51,",
+      "radiobutton.fill.checked.disabled": "S:97dc64452de99b5d329ee3f5714c385e306df5aa,",
+      "radiobutton.dot.fill.checked.default": "S:7c7b85b8ac8f19e8f5e26de9b2af5e5978436d3b,",
+      "checkbox.border.unchecked.default": "S:51725db2efb179c5df60f6b2770d9e337aa62942,",
+      "checkbox.border.unchecked.hover": "S:7986b0d73672700afca63bdde4814cc765f5cc50,",
+      "checkbox.border.unchecked.pressed": "S:bdf8b7c905eaa0ad5b6fbeb576078300810713c7,",
+      "checkbox.border.unchecked.disabled": "S:0fd104957693f79619e2d17a80bd9dd7daeb302b,",
+      "checkbox.fill.checked.default": "S:d338ba3a311b83a77a8d5e11b7ee6ad33629b5e6,",
+      "checkbox.fill.checked.hover": "S:9754cbc89e2d6388401840b5219ee8259ba7453e,",
+      "checkbox.fill.checked.pressed": "S:cb252bcdf83624aacab021239060697caa22dbf6,",
+      "checkbox.fill.checked.disabled": "S:1e52ce78410e28436b49e98cddb7db64c3c4e00b,",
+      "checkbox.check.fill.checked.default": "S:940d6fd314389cafe3ab1e0b95e9a5b9ed85df60,",
+      "checkbox.background.unchecked.default": "S:6d372d0e556dd45877ed7e17280c7886f8aa7246,",
+      "checkbox.background.unchecked.hover": "S:b1b34aecf6d0665b7f32e927ba3787260bb118cd,",
+      "checkbox.background.unchecked.pressed": "S:0b5de921484a3c5106b30d4d5ee8e000eed34cb9,",
+      "checkbox.background.unchecked.disabled": "S:026dbdbd0161d1ebc05c93841274abbe82313d4d,"
+    },
+    "selectedTokenSets": {
+      "Base": "enabled"
     }
   },
   {
@@ -447,7 +497,6 @@
       "overlay.background.onboarding": "S:9176e97bf3e8d23ec043e7f507a227fa79b343cf,",
       "overlay.background.loading": "S:e5186ad939f8179a62a4d2b6f5b23cd865c2645d,",
       "skeleton.background.primary": "S:fc955efe2d0a10713c0226a4c2f6dfde02fdcaef,",
-      "skeleton.background.seсondary": "S:c17609fa110b9bbcef45323b8bd8316fb30ec959,",
       "label.background.discount": "S:18984049a83a363dc4888d5cb1e05dc99fcbbbe7,",
       "label.background.promotion": "S:0cf3bace5290dd3222d466412003456c4b8f4763,",
       "badge.background.discount": "S:032d83e8c417ffe2cf86e605af8c9689d2d8c4a6,",
@@ -460,7 +509,8 @@
       "sliderdots.fill.default": "S:a913d6ed4d98539aa0ed6044e5790b131191facd,",
       "sliderdots.fill.selected": "S:fa45e9445ff3e447954213a26ea1b5f7c1645422,",
       "library.primary": "S:0c68188d449fe6bb22354cbc6938ee38ce6559dc,",
-      "library.secondary": "S:3754c3f4ac752be35918b8495c8fb8085231950c,"
+      "library.secondary": "S:3754c3f4ac752be35918b8495c8fb8085231950c,",
+      "skeleton.background.secondary": "S:c17609fa110b9bbcef45323b8bd8316fb30ec959,"
     }
   },
   {
@@ -671,7 +721,6 @@
       "overlay.background.onboarding": "S:afba075f56727f9750c54e2fdf451442df073aab,",
       "overlay.background.loading": "S:75ccacf9e7ff7b06c862da3447afbba10afa9c94,",
       "skeleton.background.primary": "S:249ed0e7791e9577dbadc0ca33f82d2acbfe672d,",
-      "skeleton.background.seсondary": "S:7c1a108e4e417f6b91c83ef133e0262b3e0779bd,",
       "label.background.discount": "S:b5e07a9da0a5d5413fc8f688b0d8982b9bfce6d9,",
       "label.background.promotion": "S:f9fef0a3afddf15ab7ba9d4f5bce179ef45bcf02,",
       "badge.background.discount": "S:b0f4d6c737cc478381bc3211ea0b906f0e83801f,",
@@ -703,7 +752,8 @@
       "error.background.weak.pressed": "S:97f8fa2831db425d1243d1d8b18996b93a12d43e,",
       "error.background.accent.default": "S:b3385dad6e2992393f5aa7c3f3b3e59b9cf31695,",
       "error.background.accent.hover": "S:e5971e0e04fbd526ffe3607083b7fa35cc22a234,",
-      "error.background.accent.pressed": "S:e06ad061b81422e3bb9fe796d09f6a89e1b66aed,"
+      "error.background.accent.pressed": "S:e06ad061b81422e3bb9fe796d09f6a89e1b66aed,",
+      "skeleton.background.secondary": "S:7c1a108e4e417f6b91c83ef133e0262b3e0779bd,"
     }
   },
   {
@@ -933,7 +983,6 @@
       "overlay.background.onboarding": "S:a96daed8b7e2f0a9104a86605bea46bfdb1f3f86,",
       "overlay.background.loading": "S:2c2b11615cb5fddeff2048e9e1e413e38c3b9441,",
       "skeleton.background.primary": "S:e2a0bd79b040a362fe2b1bff74524053161fd7b3,",
-      "skeleton.background.seсondary": "S:d86aa9a64c96645ed5ef1508521d1d37591b0f73,",
       "label.background.discount": "S:4c4374288a6da28f2552977cc96a1b2e9e330489,",
       "label.background.promotion": "S:01758d704434bc7c260551b36f828f35941783e7,",
       "badge.background.discount": "S:90370909e976c43f1439213b8f047d52aea4ca3e,",
@@ -946,7 +995,8 @@
       "sliderdots.fill.default": "S:c197c72b53d44b5228ee01323738077f9e2047fa,",
       "sliderdots.fill.selected": "S:125eada880a182c638a39c5d2f7d98fd58c56d0a,",
       "library.primary": "S:85edd4d8eb5e01ab08492d6ef3ef591602b73a7d,",
-      "library.secondary": "S:f27ce7edbfba0dd274344481f44a91f1429f00fb,"
+      "library.secondary": "S:f27ce7edbfba0dd274344481f44a91f1429f00fb,",
+      "skeleton.background.secondary": "S:d86aa9a64c96645ed5ef1508521d1d37591b0f73,"
     }
   },
   {
