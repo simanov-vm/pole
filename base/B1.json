@@ -703,31 +703,31 @@
     "background": {
       "selected": {
         "default": {
-          "value": "#008C38",
+          "value": "#474747",
           "type": "color",
           "description": "Цвет для выбранного чипса, таба, фильтра"
         },
         "hover": {
-          "value": "#0B853B",
+          "value": "#525252",
           "type": "color"
         },
         "pressed": {
-          "value": "#027A32",
+          "value": "#393939",
           "type": "color"
         }
       },
       "primary": {
         "default": {
-          "value": "#C4E3C2",
+          "value": "#F5F5F5",
           "type": "color",
           "description": "Основной цвет невыбранного для чипса, таба, фильтра по умолчанию"
         },
         "hover": {
-          "value": "#BADBB8",
+          "value": "#F0F0F0",
           "type": "color"
         },
         "pressed": {
-          "value": "#B0D1AE",
+          "value": "#EDEDED",
           "type": "color"
         },
         "disabled": {
